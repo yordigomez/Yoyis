@@ -1,11 +1,127 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neymar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neymar Jr - Página Oficial de Fans</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #222;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/32/Neymar_2018.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(237, 4, 4);
+      font-size: 2.5em;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgb(242, 255, 0);
+    }
+    .content {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgb(250, 7, 7);
+    }
+    footer {
+      background-color: #000;
+      color: rgb(243, 7, 7);
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Neymar to brasil </h1>
+
+  <header>
+    <h1>Neymar Jr</h1>
+    <p>El crack brasileño del fútbol mundial</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#biografia">Biografía</a>
+    <a href="#estadisticas">Estadísticas</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio" class="hero">
+    Neymar en acción
+  </section>
+
+  <section id="biografia" class="content">
+    <h2>Biografía</h2>
+    <p>Neymar da Silva Santos Júnior, conocido como Neymar Jr., es un futbolista brasileño nacido el 5 de febrero de 1992. Conocido por su habilidad, velocidad y técnica, ha jugado en clubes como el Santos FC, FC Barcelona, PSG y Al-Hilal.</p>
+  </section>
+
+  <section id="estadisticas" class="content">
+    <h2>Estadísticas</h2>
+    <ul>
+      <li>Más de 400 goles en su carrera profesional</li>
+      <li>Más de 100 partidos con la selección de Brasil</li>
+      <li>Títulos en Brasil, España y Francia</li>
+    </ul>
+  </section>
+
+  <section id="galeria" class="content">
+    <h2>Galería</h2>
+    <p>Aquí puedes poner una galería de fotos o un carrusel de imágenes.</p>
+    <!-- Ejemplo de imagen -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Neymar_2018.jpg" alt="Neymar" width="100%">
+  </section>
+
+  <section id="contacto" class="content">
+    <h2>Contacto</h2>
+    <p>¿Eres fan de Neymar? ¡Déjanos tu mensaje!</p>
+    <form>
+      <label>Nombre:</label><br>
+      <input type="text" name="nombre" required><br><br>
+      <label>Mensaje:</label><br>
+      <textarea name="mensaje" rows="4" required></textarea><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Sitio de Fans de Neymar | Diseñado por un fan
+  </footer>
+
 </body>
 </html>
